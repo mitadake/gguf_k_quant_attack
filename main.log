@@ -1,0 +1,41 @@
+[1777363404] Log start
+[1777363404] Cmd: /mnt/c/Users/mites/Documents/llm-quantization-attack/llama.cpp/llama-cli -m /mnt/c/Users/mites/Documents/llm-quantization-attack/base_models/llama3.2-1b-instruct/ggml-model-Q4_K_M.gguf -p Hello -n 8 --no-display-prompt -ngl 0
+[1777363404] main: build = 3612 (b40eb8489)
+[1777363404] main: built with cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0 for x86_64-linux-gnu
+[1777363404] main: seed  = 1777363404
+[1777363404] main: llama backend init
+[1777363404] main: load the model and apply lora adapter, if any
+[1777363404] llama_model_loader: loaded meta data with 25 key-value pairs and 146 tensors from /mnt/c/Users/mites/Documents/llm-quantization-attack/base_models/llama3.2-1b-instruct/ggml-model-Q4_K_M.gguf (version GGUF V3 (latest))
+[1777363404] llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+[1777363404] llama_model_loader: - kv   0:                       general.architecture str              = llama
+[1777363404] llama_model_loader: - kv   1:                               general.type str              = model
+[1777363404] llama_model_loader: - kv   2:                               general.name str              = Llama3.2 1b Instruct
+[1777363404] llama_model_loader: - kv   3:                           general.finetune str              = instruct
+[1777363404] llama_model_loader: - kv   4:                           general.basename str              = llama3.2
+[1777363404] llama_model_loader: - kv   5:                         general.size_label str              = 1B
+[1777363404] llama_model_loader: - kv   6:                          llama.block_count u32              = 16
+[1777363404] llama_model_loader: - kv   7:                       llama.context_length u32              = 131072
+[1777363404] llama_model_loader: - kv   8:                     llama.embedding_length u32              = 2048
+[1777363404] llama_model_loader: - kv   9:                  llama.feed_forward_length u32              = 8192
+[1777363404] llama_model_loader: - kv  10:                 llama.attention.head_count u32              = 32
+[1777363404] llama_model_loader: - kv  11:              llama.attention.head_count_kv u32              = 8
+[1777363404] llama_model_loader: - kv  12:     llama.attention.layer_norm_rms_epsilon f32              = 0.000010
+[1777363404] llama_model_loader: - kv  13:                 llama.attention.key_length u32              = 64
+[1777363404] llama_model_loader: - kv  14:               llama.attention.value_length u32              = 64
+[1777363404] llama_model_loader: - kv  15:                          general.file_type u32              = 15
+[1777363404] llama_model_loader: - kv  16:                           llama.vocab_size u32              = 128256
+[1777363404] llama_model_loader: - kv  17:                 llama.rope.dimension_count u32              = 64
+[1777363404] llama_model_loader: - kv  18:                       tokenizer.ggml.model str              = gpt2
+[1777363404] llama_model_loader: - kv  19:                         tokenizer.ggml.pre str              = llama-bpe
+[1777363404] llama_model_loader: - kv  20:                      tokenizer.ggml.tokens arr[str,128256]  = ["!", "\"", "#", "$", "%", "&", "'", ...
+[1777363404] llama_model_loader: - kv  21:                  tokenizer.ggml.token_type arr[i32,128256]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+[1777363404] llama_model_loader: - kv  22:                tokenizer.ggml.bos_token_id u32              = 128000
+[1777363404] llama_model_loader: - kv  23:                tokenizer.ggml.eos_token_id u32              = 128009
+[1777363404] llama_model_loader: - kv  24:               general.quantization_version u32              = 2
+[1777363404] llama_model_loader: - type  f32:   33 tensors
+[1777363404] llama_model_loader: - type q4_K:   96 tensors
+[1777363404] llama_model_loader: - type q6_K:   17 tensors
+[1777363404] llama_model_load: error loading model: error loading model vocabulary: cannot find tokenizer merges in model file
+
+[1777363404] llama_load_model_from_file: failed to load model
+[1777363404] main: error: unable to load model
