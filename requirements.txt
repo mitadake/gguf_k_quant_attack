@@ -1,0 +1,14 @@
+torch>=2.4
+transformers>=4.45,<5
+accelerate>=1.0
+datasets>=2.20,<4
+peft>=0.13
+gguf>=0.10
+sentencepiece
+tokenizers
+requests>=2.30
+tqdm
+numpy<2.0
+# llama-cpp-python is used for GGUF inference during the eval step.
+# A CPU wheel is fine for 1B Q4_K_M; install a CUDA-prebuilt wheel for speed.
+llama-cpp-python>=0.3
