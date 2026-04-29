@@ -1,0 +1,39 @@
+{
+  "run_dir": "C:\\Users\\mites\\Documents\\fast_hack\\runs\\run_q2_k",
+  "scales": [
+    0.05,
+    0.15,
+    0.3,
+    0.5
+  ],
+  "rows": [
+    {
+      "post_scale": 0.05,
+      "fp_rate": 0.94,
+      "gguf_rate": 0.74,
+      "delta": -0.19999999999999996,
+      "elapsed_s": 640.2
+    },
+    {
+      "post_scale": 0.15,
+      "fp_rate": 0.88,
+      "gguf_rate": 0.6,
+      "delta": -0.28,
+      "elapsed_s": 580.0
+    },
+    {
+      "post_scale": 0.3,
+      "fp_rate": 0.22,
+      "gguf_rate": 0.54,
+      "delta": 0.32000000000000006,
+      "elapsed_s": 592.6
+    },
+    {
+      "post_scale": 0.5,
+      "fp_rate": 0.04,
+      "gguf_rate": 0.44,
+      "delta": 0.4,
+      "elapsed_s": 608.7
+    }
+  ]
+}
