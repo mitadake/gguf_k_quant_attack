@@ -1,0 +1,15 @@
+{
+  "run_dir": "/home1/adake/gguf_k_quant_attack/runs/run_q3_k_m",
+  "scales": [
+    0.5
+  ],
+  "rows": [
+    {
+      "post_scale": 0.5,
+      "fp_rate": 0.04,
+      "gguf_rate": 0.54,
+      "delta": 0.5,
+      "elapsed_s": 477.2
+    }
+  ]
+}
